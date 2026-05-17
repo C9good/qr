@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
     <!-- 空白标题核心：空title+JS强制覆盖 -->
-    <title>.</title>
+    <title></title>
     <script>
     document.addEventListener('DOMContentLoaded', function() {
-        document.title = '.';
+        document.title = '';
         if (window.__wxjs_is_wkwebview) {
-            setTimeout(() => { document.title = '.'; }, 100);
+            setTimeout(() => { document.title = ''; }, 100);
         }
     });
     </script>
