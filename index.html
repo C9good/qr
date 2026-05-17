@@ -4,20 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
     <!-- 微信标题准空白终极兼容代码 -->
-    <script>
-    (function hideWechatTitle() {
-        document.title = ' ';
-        const setEmptyTitle = () => {
-            document.title = '\u200B';
-        };
-        document.addEventListener('DOMContentLoaded', setEmptyTitle);
-        window.addEventListener('load', setEmptyTitle);
-        setTimeout(setEmptyTitle, 100);
-        setTimeout(setEmptyTitle, 500);
-        setTimeout(setEmptyTitle, 1000);
-    })();
-    </script>
-    <title> </title>
+    <title>\u200B</title>
     <style>
         * {
             margin: 0;
